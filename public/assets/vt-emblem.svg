@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <linearGradient id="vtMaroon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9e244d" />
+      <stop offset="55%" stop-color="#861F41" />
+      <stop offset="100%" stop-color="#581229" />
+    </linearGradient>
+    <linearGradient id="vtOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c38" />
+      <stop offset="50%" stop-color="#E5751F" />
+      <stop offset="100%" stop-color="#b8560d" />
+    </linearGradient>
+    <linearGradient id="vtGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde68a" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <filter id="vtShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Outer Academic Crest Shield / Medallion -->
+  <circle cx="120" cy="120" r="112" fill="#0b0f19" stroke="url(#vtOrange)" stroke-width="4" />
+  <circle cx="120" cy="120" r="102" fill="url(#vtMaroon)" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.5" />
+  
+  <!-- Inner Decorative Ring -->
+  <circle cx="120" cy="120" r="88" fill="none" stroke="url(#vtOrange)" stroke-width="2" stroke-dasharray="4 3" opacity="0.85" />
+
+  <!-- Shield Backdrop -->
+  <path d="M68 58 H172 V118 C172 156 146 182 120 194 C94 182 68 156 68 118 Z" fill="#470d20" stroke="url(#vtOrange)" stroke-width="3" filter="url(#vtShadow)" />
+
+  <!-- Iconic Geometric VT Monogram -->
+  <g filter="url(#vtShadow)">
+    <!-- V shape -->
+    <polygon points="74,78 94,78 111,132 128,78 147,78 119,158 103,158" fill="#ffffff" />
+    <polygon points="77,80 92,80 111,138 130,80 144,80 118,155 104,155" fill="url(#vtOrange)" />
+    <!-- T shape -->
+    <polygon points="122,78 170,78 170,95 154,95 154,158 136,158 136,95 122,95" fill="#ffffff" />
+    <polygon points="124,80 168,80 168,93 152,93 152,155 138,155 138,93 124,93" fill="#ffffff" />
+  </g>
+
+  <!-- Top & Bottom Academic Banners -->
+  <text x="120" y="42" text-anchor="middle" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="12.5" font-weight="800" letter-spacing="2.5">VIRGINIA TECH</text>
+  <text x="120" y="174" text-anchor="middle" fill="#fed7aa" font-family="Montserrat, Arial, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1.6">UT PROSIM • 1872</text>
+  <text x="120" y="213" text-anchor="middle" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="9.5" font-weight="700" letter-spacing="2">PAMPLIN BUSINESS</text>
+</svg>
