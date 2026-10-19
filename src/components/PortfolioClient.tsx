@@ -79,7 +79,7 @@ function useInView(options = { once: true, amount: 0.12 }) {
   return [ref, isInView];
 }
 
-function createMotionComponent(Tag) {
+function createMotionComponent(Tag: any) {
   return React.forwardRef(function MotionComponent(
     {
       initial,
